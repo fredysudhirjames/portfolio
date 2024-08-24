@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  
+	@apply bg-slate-900 text-slate-400 leading-relaxed;
+}
+
+.page-section-links a {
+
+	@apply min-w-60 tracking-widest py-3 pr-5 rounded-e-lg underline underline-offset-4 transition-colors duration-300 bg-transparent hover:drop-shadow-lg bg-gradient-to-r hover:from-slate-900 hover:to-slate-800/85 hover:text-slate-200/90 hover:font-medium hover:no-underline motion-reduce:transition-none;
+}
+
+.page-section-links a.active {
+
+	@apply text-slate-100 no-underline bg-gradient-to-r from-slate-900 to-slate-700;
+}
