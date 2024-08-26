@@ -53,7 +53,7 @@ export default function Home() {
 					</div>
 					<nav className='flex gap-x-5 text-2xl mt-12' aria-label='Social media links'>
 						<Link href="https://www.linkedin.com/in/fredy-sudhir/" target='_blank' className='hover:text-slate-100 hover:scale-110 transition-transform duration-300 motion-reduce:transition-none'><FaLinkedin /></Link>
-						<Link href="https://github.com/fredy-sudhir-james" target='_blank' className='hover:text-slate-100 hover:scale-110 transition-transform duration-300 motion-reduce:transition-none'><FaGithub /></Link>
+						<Link href="https://github.com/fredysudhirjames" target='_blank' className='hover:text-slate-100 hover:scale-110 transition-transform duration-300 motion-reduce:transition-none'><FaGithub /></Link>
 					</nav>
 				</header>
 				<main className='space-y-14 py-14 lg:space-y-20 lg:py-24'>
