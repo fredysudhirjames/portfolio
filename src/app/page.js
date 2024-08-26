@@ -36,7 +36,7 @@ export default function Home() {
 			<div className='lg:grid lg:grid-cols-2 lg:gap-x-5 lg:items-start'>
 				<header className='pt-14 lg:py-24 lg:min-h-dvh lg:sticky lg:top-0 lg:flex lg:flex-col lg:justify-between lg:gap-y-10'>
 					<div>
-						<h1 className='text-slate-200 text-5xl font-semibold'>
+						<h1 className='text-slate-100 text-5xl font-semibold'>
 							<Link href='/'>Fredy Sudhir James</Link>
 						</h1>
 						<h2 className='mt-3 text-2xl font-medium text-slate-200/90'>Senior Frontend Developer</h2>
